@@ -49,7 +49,7 @@ def partition(l, r, nums):
 	return ptr
 
 def quicksort(l, r, nums):
-	if len(nums) == 1: 
+	if len(nums) == 1:
 		return nums
 	if l < r:
 		pi = partition(l, r, nums)
@@ -70,7 +70,7 @@ def ratings(x):
  value = {i for i in example if example[i]=="Back"}
  print(value)
 
-Doctors=["Back","Neck","Limbs","Stomach","Limbs","Back","Back"]
+Doctors=["Back","Neck","Limbs","Stomach","Limbs"]
 for x in Doctors:
  if x == "Back":
    ratings(x)
